@@ -1,7 +1,7 @@
 const ProductCard = ({ img, title, content }) => {
     return (
         <div className="flex flex-col rounded-2xl bg-gray-100 gap-2">
-            <div className=" bg-green-300 rounded-2xl">
+            <div className=" bg-green-300 rounded-2xl flex justify-center">
                 <img src={img} className='w-96 h-64' alt="" />
             </div>
             <div className="px-4 flex flex-col gap-2">

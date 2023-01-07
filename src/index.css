@@ -3,7 +3,23 @@
 @tailwind utilities;
 
 body {
-  background-color: #fbfbfb;
   margin: 0;
   padding: 0;
+  @apply bg-[#fbfbfb]
+}
+
+.darkMode {
+  @apply bg-[#323548] text-white;
+}
+
+.lightMode {
+  @apply bg-[#fbfbfb] text-gray-600
+}
+
+.darkHam {
+  @apply bg-white
+}
+
+.lightHam {
+  @apply bg-gray-700
 }

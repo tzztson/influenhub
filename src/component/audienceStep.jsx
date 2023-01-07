@@ -1,10 +1,10 @@
 const AudienceStep = ({ color, icon, title, subtitle, content }) => {
     return (
-        <div className="flex-[1_1_25%] flex flex-col justify-center items-center gap-4">
+        <div className="flex-[1_1_20%] max-xl:flex-[1_1_45%] max-md:flex-[1_1_90%] flex flex-col justify-center items-center gap-4">
             <div className={`bg-[${color}] w-32 h-32 flex justify-center items-center rounded-xl`}>
                 <img src={icon} className="h-16 w-16" alt="" />
             </div>
-            <div>
+            <div className="flex flex-col justify-start items-center">
                 <p className="text-center font-medium text-gray-600 text-2xl">{title}</p>
                 <p className="text-center font-medium text-gray-600 text-2xl">{subtitle}</p>
             </div>
